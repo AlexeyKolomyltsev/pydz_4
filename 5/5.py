@@ -1,18 +1,5 @@
 import os
 
-indexes = {
-    "9": "\u2079",
-    "8": "\u2078",
-    "7": "\u2077",
-    "6": "\u2076",
-    "5": "\u2075",
-    "4": "\u2074",
-    "3": "\u00B3",
-    "2": "\u00B2",
-    "1": "\u00B9",
-    "0": "\u2070",
-}
-
 path1 = os.path.join('5','file1.txt')
 path2 = os.path.join('5','file2.txt')
 with open(path1, 'r', encoding="utf-8") as data1:
